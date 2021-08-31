@@ -1,0 +1,6 @@
+framework module GKPlaceholder {
+  umbrella header "GKPlaceholder-umbrella.h"
+
+  export *
+  module * { export * }
+}

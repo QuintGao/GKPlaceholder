@@ -1,0 +1,27 @@
+PODS:
+  - GKPlaceholder (1.0.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.2)
+
+DEPENDENCIES:
+  - GKPlaceholder (from `../`)
+  - Masonry
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  GKPlaceholder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GKPlaceholder: 7ba3cf0fff307cb3d0bc0de9aca6c8346e2d8eb0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+
+PODFILE CHECKSUM: 1ad2fdbc8b4e8f24d6ada39eb8246db565d43612
+
+COCOAPODS: 1.11.0.beta.2

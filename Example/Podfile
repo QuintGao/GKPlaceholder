@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GKPlaceholder_Example' do
+  pod 'GKPlaceholder', :path => '../'
+  pod 'Masonry'
+  pod 'MJRefresh'
+
+  target 'GKPlaceholder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

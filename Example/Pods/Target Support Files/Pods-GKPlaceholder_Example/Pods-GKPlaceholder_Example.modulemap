@@ -1,0 +1,6 @@
+framework module Pods_GKPlaceholder_Example {
+  umbrella header "Pods-GKPlaceholder_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
