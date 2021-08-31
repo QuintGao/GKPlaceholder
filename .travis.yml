@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode12.1
+xcode_sdk: iphonesimulator12.0
+script:
+    - set -o pipefail
+    - echo Build the Demo apps
+    - pod install

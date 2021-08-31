@@ -1,6 +1,6 @@
 # GKPlaceholder
 
-[![CI Status](https://img.shields.io/travis/1094887059@qq.com/GKPlaceholder.svg?style=flat)](https://travis-ci.org/1094887059@qq.com/GKPlaceholder)
+[![CI Status](https://img.shields.io/travis/QuintGao/GKPlaceholder.svg?style=flat)](https://travis-ci.org/QuintGao/GKPlaceholder)
 [![Version](https://img.shields.io/cocoapods/v/GKPlaceholder.svg?style=flat)](https://cocoapods.org/pods/GKPlaceholder)
 [![License](https://img.shields.io/cocoapods/l/GKPlaceholder.svg?style=flat)](https://cocoapods.org/pods/GKPlaceholder)
 [![Platform](https://img.shields.io/cocoapods/p/GKPlaceholder.svg?style=flat)](https://cocoapods.org/pods/GKPlaceholder)
