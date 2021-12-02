@@ -92,6 +92,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// 快速创建占位图
 /// @param image 图片对象或名称
 /// @param title 标题
+/// @param clickBlock 点击回调
++ (instancetype)placeholderWithImage:(id _Nullable)image title:(NSString *_Nullable)title clickBlock:(void(^_Nullable)(void))clickBlock;
+
+/// 快速创建占位图
+/// @param image 图片对象或名称
+/// @param title 标题
 /// @param detail 描述
 /// @param clickBlock 点击回调
 + (instancetype)placeholderWithImage:(id _Nullable)image title:(NSString *_Nullable)title detail:(NSString *_Nullable)detail clickBlock:(void(^_Nullable)(void))clickBlock;

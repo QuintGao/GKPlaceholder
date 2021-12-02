@@ -31,9 +31,14 @@ it, simply add the following line to your Podfile:
 pod 'GKPlaceholder'
 ```
 
+## Update
+
+* 1.0.1 2021.12.02  修复设置detailMaxW无效的bug
+
 ## Author
 
 [QuintGao](https://github.com/QuintGao)
+[【iOS】一行代码实现空数据占位图](https://www.jianshu.com/p/24c3952118c9)
 
 ## License
 

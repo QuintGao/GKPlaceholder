@@ -46,6 +46,10 @@
     return [[self alloc] init];
 }
 
++ (instancetype)placeholderWithImage:(id)image title:(NSString *)title clickBlock:(void (^)(void))clickBlock {
+    return [[self alloc] initWithImage:image title:title detail:nil clickBlock:clickBlock actionTitle:nil actionClickBlock:nil];
+}
+
 + (instancetype)placeholderWithImage:(id)image title:(NSString *)title detail:(NSString *)detail clickBlock:(void (^)(void))clickBlock {
     return [[self alloc] initWithImage:image title:title detail:detail clickBlock:clickBlock actionTitle:nil actionClickBlock:nil];
 }
@@ -166,7 +170,7 @@
         self.detailLabel.font = self.detailFont ?: kDetailFont;
         self.detailLabel.textColor = self.detailColor ?: kDetailColor;
         
-        CGFloat maxWidth = self.detailMaxWidth > 0 ?: (width - 40);
+        CGFloat maxWidth = self.detailMaxWidth > 0 ? self.detailMaxWidth : (width - 40);
         CGSize detailSize = [self.detailLabel.text boundingRectWithSize:CGSizeMake(maxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: self.detailLabel.font} context:nil].size;
         CGFloat detailX = (width - maxWidth) * 0.5;
         self.detailLabel.frame = CGRectMake(detailX, contentH, maxWidth, detailSize.height);
