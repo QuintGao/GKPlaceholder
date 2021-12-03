@@ -12,6 +12,10 @@
 * 3、自动适配安全区域
 * 4、支持自定义视图显示
 
+## 效果图
+
+![demo.gif](https://upload-images.jianshu.io/upload_images/1598505-8a05c108f614638b.gif?imageMogr2/auto-orient/strip)
+
 ## Uses
 
 ```
