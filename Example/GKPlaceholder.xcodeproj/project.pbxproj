@@ -257,6 +257,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = QuintGao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = X52753HQNM;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -510,12 +514,15 @@
 			baseConfigurationReference = 64A82097E0F35C52FAEE792F /* Pods-GKPlaceholder_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X52753HQNM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GKPlaceholder/GKPlaceholder-Prefix.pch";
 				INFOPLIST_FILE = "GKPlaceholder/GKPlaceholder-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.gkplaceholder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = aystfm_dev_test;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -526,12 +533,15 @@
 			baseConfigurationReference = 4B408BEED036A74C37A58FF0 /* Pods-GKPlaceholder_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X52753HQNM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GKPlaceholder/GKPlaceholder-Prefix.pch";
 				INFOPLIST_FILE = "GKPlaceholder/GKPlaceholder-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.gkplaceholder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = aystfm_dev_test;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
